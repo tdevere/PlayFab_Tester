@@ -62,6 +62,15 @@ namespace PlayFab_Tester
                 }
             }
         }
-            
+
+        private void btnClearResults_Click(object sender, EventArgs e)
+        {
+            rtbResults.Clear();
+        }
+
+        private void btnInvoke_Click(object sender, EventArgs e)
+        {
+            //Get Selected API and Invoke the API
+        }
     }
 }
